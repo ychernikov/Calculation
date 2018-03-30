@@ -1,8 +1,9 @@
 /**
  * Created by admin on 2/27/2018.
  */
-public class Degree implements BinaryOperation {
+package Calculator;
+public class Division implements BinaryOperation {
     public double resultFor(double left, double right) {
-        return Math.pow(left,right);
+        return left/right;
     }
 }
